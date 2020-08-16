@@ -1,5 +1,6 @@
 import React from "react";
 import HomePageSingleRect from "./HomePageSingleRect";
+import { Link } from "gatsby";
 
 const HomepageBlogSection = () => {
     return (
@@ -45,12 +46,9 @@ const HomepageBlogSection = () => {
                             />
                         </div>
                     </div>
-                    <a
-                        href="https://tech-bulb.com/blog"
-                        title="Watch all blog posts"
-                    >
+                    <Link to="/blog">
                         <p class="watch-more__text">Watch more</p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
